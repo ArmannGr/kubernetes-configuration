@@ -14,5 +14,8 @@ spec:
         name: aquasecurity-charts
         namespace: flux-system
       interval: 1m
+  install:
+    remediation:
+      retries: -1
   values:
     - trivy.ignoreUnfixed=true
