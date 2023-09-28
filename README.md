@@ -2,16 +2,11 @@
 
 # Flux Repository for Trivy Operator, Cert-Manager, and Podinfo
 
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/ArmannGr/eks-configuration/Flux%20Sync%20Workflow)
-![GitHub](https://img.shields.io/github/license/ArmannGr/eks-configuration)
-
 This Flux repository is designed to automate the deployment of the Trivy Operator, Cert-Manager, and Podinfo in your Kubernetes cluster. Flux is used to manage the GitOps workflow for continuous delivery and automation of these applications.
 
 ## Components Included
 
 ### 1. Trivy Operator
-
-![Trivy Logo](https://aquasecurity.github.io/trivy/images/trivy.png)
 
 **Description:** The Trivy Operator is a critical security tool that enhances the security of your Kubernetes workloads by scanning container images for vulnerabilities. It leverages the open-source Trivy scanner to identify security issues in your container images, including Common Vulnerabilities and Exposures (CVEs) and other potential threats. The operator simplifies the process of integrating image scanning into your Kubernetes environment, allowing you to maintain a high level of security without a lot of manual effort.
 
@@ -24,8 +19,6 @@ This Flux repository is designed to automate the deployment of the Trivy Operato
 
 ### 2. Cert-Manager
 
-![Cert-Manager Logo](https://cert-manager.io/img/logo.svg)
-
 **Description:** Cert-Manager is a Kubernetes native solution for managing SSL/TLS certificates. It simplifies the management of certificates, making it easy to secure your applications. Cert-Manager automates the certificate request and renewal process, ensuring that your services are always protected with up-to-date certificates.
 
 **Key Features:**
@@ -36,8 +29,6 @@ This Flux repository is designed to automate the deployment of the Trivy Operato
 - **Webhook Support**: Extend Cert-Manager's capabilities through custom webhooks and third-party certificate authorities.
 
 ### 3. Podinfo
-
-![Podinfo Logo](https://github.com/stefanprodan/podinfo/raw/master/artwork/podinfo.png)
 
 **Description:** Podinfo is a straightforward, Golang-based web application designed for Kubernetes environments. It serves as a useful example of an application that can be deployed and managed using Kubernetes and GitOps methodologies. Podinfo provides basic information about the Kubernetes pod it runs in, making it an ideal tool for learning and testing purposes.
 
